@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the model
-model = joblib.load('churn_model.pkl')
+model = joblib.load('Churn_model.pkl')
 
 # Page setup
 st.set_page_config(page_title="Netflix Churn Predictor", page_icon="🎬")
